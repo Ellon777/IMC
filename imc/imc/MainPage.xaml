@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="imc.MainPage">
+
+    <StackLayout>
+        <Entry x:Name="txt_altura" Placeholder="Altura"/>
+        <Entry x:Name="txt_peso" Placeholder="Peso"/>
+        <Button Text="Ver" Clicked="Button_Clicked"/>
+
+        <Grid ColumnDefinitions="*, *"
+              RowDefinitions="*, *, *, *, *, *, *">
+
+
+            <Button x:Name="btn1" Grid.Row="1" Grid.Column="0" Text="CLASSIFICAÇÃO" BackgroundColor="DarkCyan" TextColor="White"/>
+
+            <Button x:Name="btn2" Grid.Row="2" Grid.Column="0" Text="Abaixo do Peso" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn3" Grid.Row="3" Grid.Column="0" Text="Peso Normal" BackgroundColor="DarkCyan" TextColor="White"/>
+
+            <Button x:Name="btn4" Grid.Row="4" Grid.Column="0" Text="Sobrepeso" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn5" Grid.Row="5" Grid.Column="0" Text="Obesidade Grau I" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn6" Grid.Row="6" Grid.Column="0" Text="Obesidade Grau II" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn7" Grid.Row="7" Grid.Column="0" Text="Obesidade Grau III" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn8" Grid.Row="1" Grid.Column="1" Text="IMC" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn9" Grid.Row="2" Grid.Column="1" Text="Abaixo de 18,5" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn10" Grid.Row="3" Grid.Column="1" Text="18,5 - 24,9" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn11" Grid.Row="4" Grid.Column="1" Text="25 - 29,9" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn12" Grid.Row="5" Grid.Column="1" Text="30 - 34,9" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn13" Grid.Row="6" Grid.Column="1" Text="35 - 39,9" BackgroundColor="DarkCyan" TextColor="White"/>
+            <Button x:Name="btn14" Grid.Row="7" Grid.Column="1" Text="Maior ou igual 40" BackgroundColor="DarkCyan" TextColor="White"/>
+
+           
+
+
+        </Grid>
+
+
+    </StackLayout>
+
+</ContentPage>
